@@ -1,12 +1,12 @@
 name: "Pipeline CICD"
 on:
-    push: # solo ejecuta el pipeline cuando se hace un commit a esta rama
-      branches:
-        - master
+  push: # solo ejecuta el pipeline cuando se hace un commit a esta rama
+    branches:
+      - master
 
-    pull_request:
-      branches:
-        - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
   lint: # name of the job
